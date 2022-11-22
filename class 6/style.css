@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  width: 100%;
+  height: 100px;
+  background: #00A2E8;
+  display: flex;
+}
+.logo{
+  width: 40%;
+  background: yellow;
+  height: 100%;
+}
+.menu{
+  width: 60%;
+  background: orange;
+  height: 100%;
+}
+main{
+  width: 100%;
+  height: 500px;
+  background: #ED1C24;
+  display: flex;
+}
+.main_content{
+  width: 70%;
+  height: 100%;
+  background: brown;
+}
+.sidebar{
+  width: 30%;
+  height: 100%;
+  background: #3F48CC;
+}
+section{
+  width: 100%;
+  height: 300px;
+  background: yellow;
+  display: flex;
+}
+.left{
+  width: 50%;
+  height: 100%;
+  background: light-green;
+}
+.right{
+  width: 50%;
+  height: 100%;
+  background: lime;
+}
+footer{
+  width: 100%;
+  height: 50px;
+  background: #7092BE;
+}

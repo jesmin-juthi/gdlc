@@ -1,0 +1,99 @@
+/*
+    default css start
+*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+/* default css end */
+/* hero section start */
+/* .bg {
+    background-image: linear-gradient(20deg, rgba(194, 39, 0, 0.80), rgba(0, 184, 9, 0.3)), url('images/1.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg h1 {
+    font-size: 80px;
+    text-align: center;
+    color: #fff;
+    padding-top: 300px;
+} */
+
+/* hero section end */
+
+/* icon section start */
+/* .icons_area {
+    padding: 30px 0;
+    text-align: center;
+    background-color: rgb(226, 226, 226)
+}
+
+.icons_area i {
+    font-size: 50px;
+    margin-left: 30px;
+    color: rgb(65, 0, 170);
+} */
+
+/* icon section end */
+/* 
+.box {
+    height: 200px;
+    width: 200px;
+}
+
+.box1 {
+    background-color: rgb(189, 35, 35);
+    float: left;
+}
+
+.box2 {
+    background-color: green;
+    overflow: hidden;
+    float: left;
+}
+
+.box3 {
+    background-color: darkblue;
+    overflow: hidden;
+} */
+/* .menu_area {
+    background: gray;
+    overflow: hidden;
+}
+
+.menu_area ul {
+    float: left;
+}
+
+.menu_area ul li {
+    display: inline;
+}
+
+.menu_area ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 50px;
+} */
+
+.green {
+    height: 300px;
+    width: 500px;
+    background-color: green;
+    position: relative;
+}
+
+.red {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

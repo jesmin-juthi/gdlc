@@ -1,0 +1,144 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+/* header style */
+
+header {
+    padding: 15px 0;
+}
+
+header .nav-link {
+    color: #2d3950 !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 45px !important;
+}
+
+/* banner style */
+
+.banner {
+    background: url('images/banner.png');
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.banner-content {
+    color: #fff;
+}
+
+.banner-content h1 {
+    font-size: 90px;
+    font-weight: 900;
+}
+
+.banner-content span {
+    width: 600px;
+    height: 2px;
+    display: inline-block;
+    background-color: #15a4fa;
+}
+
+.banner-content p {
+    margin: 20px 0 40px;
+}
+
+.banner-content .btn-custom {
+    background-color: transparent;
+    border: 1px solid #15a4fa;
+    padding: 15px 35px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 17px;
+    transition: .4s all ease-in-out;
+}
+
+.banner-content .btn-custom:hover {
+    background-color: #15a4fa;
+}
+
+.banner-content .arrow-icon {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    font-size: 25px;
+    transform: translateX(-50%);
+    animation: updown 1s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes updown {
+    0% {
+        top: 90%;
+    }
+
+    100% {
+        top: 85%;
+    }
+}
+
+.about {
+    background: #f6f9f9;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.about-content h2 {
+    color: #2d3950;
+}
+
+.about-content p {
+    color: #999999;
+    width: 70%;
+    margin: 15px auto;
+}
+
+/* service styles */
+
+.service {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.service-box {}
+
+.service-box .service-icon {
+    width: 100px;
+    height: 100px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+0,71ceef+50,21b4e2+51,5fc3ff+100 */
+    background: #48baff;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #48baff 0%, #71ceef 50%, #21b4e2 51%, #5fc3ff 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #48baff 0%, #71ceef 50%, #21b4e2 51%, #5fc3ff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #48baff 0%, #71ceef 50%, #21b4e2 51%, #5fc3ff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#48baff', endColorstr='#5fc3ff', GradientType=1);
+    /* IE6-9 */
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.service-box h2 {
+    font-size: 20px;
+    color: #2d3950;
+}
+
+.service-box p {
+    color: #999999;
+    font-size: 15px;
+    width: 60%;
+    margin: auto;
+}

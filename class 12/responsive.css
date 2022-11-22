@@ -1,0 +1,21 @@
+@media screen and (max-width:400px) {
+    .section1{
+        background-color: #f80088;
+    }
+    .section1 h1{
+        padding-top: 150px;
+        font-size: 50px;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width:768px) {
+    h1{
+        color: red;
+    }
+}
+@media screen and (max-width: 492px) {
+    h1{
+        font-size: 30px;
+    }
+}
